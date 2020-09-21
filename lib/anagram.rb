@@ -9,7 +9,7 @@ end
 
 def match(anagram_array)
    if anagram_array.each do |word|
-     @@new_array << word if word.split('').sort.join == self.word.split('').sort.join
+     @@new_array << word if word.split('').sort.join == @word.split('').sort.join
   end
   @@new_array
 end
