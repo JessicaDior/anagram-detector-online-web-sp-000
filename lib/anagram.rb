@@ -9,6 +9,7 @@ end
 
 def match(anagram_array)
   if  anagram_array.each do |word|
+    word.split("")
     puts @word
   else puts @@new_array
   end
