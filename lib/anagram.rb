@@ -13,5 +13,6 @@ def match(anagram_array)
   end
   @@new_array
 end
+end
 
 end
