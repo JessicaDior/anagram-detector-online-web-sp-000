@@ -8,8 +8,7 @@ def initialize(word)
 end
 
 def match(anagram_array)
-  if  anagram_array.each do |word|
-    word.split("")
+  if  anagram_array.split("") do |word|
     puts @word
   else puts @@new_array
   end
